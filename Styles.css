@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 10px 0 0;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.image-gallery img {
+  width: 45%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.details {
+  margin-top: 20px;
+}
+
+.details h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.details li {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #007BFF;
+  color: #fff;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Cookie Consent Pop-Up */
+#cookie-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.popup-content h2 {
+  margin-bottom: 10px;
+}
+
+.popup-content p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.popup-content a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.popup-content a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
